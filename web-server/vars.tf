@@ -12,3 +12,8 @@ variable "instance_name" {
 	description = "EC2 instance name"
 	default     = "rion-tf-demo-instance"
 }
+
+variable "server_text" {
+  description = "The text the web server should return"
+  default     = "Hello World!"
+}
